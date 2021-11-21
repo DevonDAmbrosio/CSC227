@@ -1,0 +1,17 @@
+{
+  "name": "rollingdie",
+  "version": "0.0.1",
+  "description": "Click to get a random number between one and six",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "Devon D'Ambrosio",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}

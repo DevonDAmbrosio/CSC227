@@ -1,0 +1,19 @@
+<p>Devon D'Ambrosio</p>
+<p>dldambrosio@my.waketech.edu</p>
+<script>
+    let list = []
+    document.getElementById("addItem").addEventListener("click", addItem);
+
+    function addItem() {
+        let stuff = Math.floor(Math.random() * (7- 1) + 1);
+        list.push(stuff);
+        modify();
+    }
+
+    function modify() {
+        document.getElementById("list").innerHTML = list;
+    }
+</script>
+</body>
+
+</html>
